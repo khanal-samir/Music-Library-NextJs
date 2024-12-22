@@ -30,7 +30,7 @@ const Featured = () => {
       </div>
 
       <div className="mt-10">
-        <div className="grid grisd-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+        <div className="grid grisd-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center px-2">
           {featuredCourses.map((c: Course) => (
             <div key={c.id} className="flex justify-center">
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
